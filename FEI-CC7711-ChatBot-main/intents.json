@@ -11,7 +11,7 @@
     "patterns":["Quando sera a prova?","A prova será em que dia?"],
     "responses": ["no dia 26"]
   },
-  { "tag": "introdução",
+  { "tag": "introdução",  
     "patterns":["O que é o tcc?", "O que é o trabalho de conclusão de curso?"],
     "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduação. A solução proposta deve ter como base o método científico"]
   },
@@ -24,8 +24,11 @@
     "responses": ["É esperado uma monografia e um artefato ou programa. A monografia deve: \n•Introduzir e apresentar os objetivos do trabalho\n•Conceituar o problema\n•revisar a literatura\n•desenvolver a arquitetura das técnicas utilizadas\n•discutir os resultados e conclusões finais. "]
   },
   { "tag": "orientador",
-    "patterns":["O que o orientador deve fazer?", "Qual a responsabilidade do orientador?", "O que o orientador faz?", "Como o professor me ajudará?" ],
+    "patterns":["O que o orientador deve fazer?", "Qual a responsabilidade do orientador?", "O que o orientador faz?", "Como o professor me ajudará?","Sim","y","Já" ],
     "responses": ["Cabe ao professor orientador:\n•Conduzir o trabalho e é recomendado pelo menos 1h semanal de reuniões com o grupo\n•Assegurar que os alunos estão cumprindo as atividades durante as aulas\n•Informar ao professor da disciplina possíveis desvios ou situações que merecem atenção ou que possam prejudicar o trabalho ou a convivência do grupo."]  },
+  { "tag": "orientador-escolha",
+    "patterns":["não","n","Ainda não.", "Não escolhi o orientador."],
+    "responses": ["O professor orientador deve ser contatado com a maior antedecedência possível e pode ou não aceitar o projeto. Como regra geral, é ideal que se procure um professor que tem interesse na área do seu tema, mas não é preciso que seja do mesmo departamento."]  },
   { "tag": "professor",
   "patterns":["O que o professor deve fazer?", "Qual a responsabilidade do professor?", "O que o professor faz?", "Como o professor me ajudará?" ],
     "responses": ["Os professores da disciplina de tcc devem:\n•Apresentar semanalmente tópicos sobre metodologia científica e organização do trabalho\n•Acompanhar a evolução de cada grupo e auxiliar os alunos na condução das atividades\n•Validar as entregas no MOODLE\n•Informar ao professor orientador possíveis desvios ou situações que merecem atenção ou que possam prejudicar o trabalho ou a convivência do grupo."]
