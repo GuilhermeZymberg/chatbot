@@ -1,0 +1,27 @@
+{"intents":[
+  { "tag": "saudacao",
+    "patterns":["Ola","Opa","Oi", "tudo bem"],
+    "responses": ["Oi","Olá"]
+  },
+  { "tag": "despedida",
+    "patterns":["valeu","tchau","Obrigado","tks"],
+    "responses": ["Até breve","Falou"]
+  },
+  { "tag": "data_prova",
+    "patterns":["Quando sera a prova?","A prova será em que dia?"],
+    "responses": ["no dia 26"]
+  },
+  { "tag": "numero_grupo",
+    "patterns":["Pode fazer grupo com mais pessoas?","Posso fazer grupo com menos pessoas?", "posso ter 5 integrantes?", "É permitido fazer grupo com mais de quatro integrantes?"],
+    "responses": ["O TCC deve ser um trabalho de 4 pessoas. Caso tenha mais de 4 integrantes, a banca e o professor serão ambos mais exigentes. Ou seja, escolha por sua conta e risco"]
+  },
+  { "tag": "entrega",
+    "patterns":["O que deve ser entregue?","Qual a entrega?","O que preciso fazer?", "O que é o trabalho final?"],
+    "responses": ["É esperado uma monografia e um artefato ou programa. A monografia deve: \n•Introduzir e apresentar os objetivos do trabalho\n•Conceituar o problema\n•revisar a literatura\n•desenvolver a arquitetura das técnicas utilizadas\n•discutir os resultados e conclusões finais. "]
+  },
+  { "tag": "introdução",
+    "patterns":["O que deve ser entregue?","Qual a entrega?","O que preciso fazer?", "O que é o trabalho final?"],
+    "responses": ["É esperado uma monografia e um artefato ou programa. A monografia deve: \n•Introduzir e apresentar os objetivos do trabalho\n•Conceituar o problema\n•revisar a literatura\n•desenvolver a arquitetura das técnicas utilizadas\n•discutir os resultados e conclusões finais. "]
+  }
+]
+}
