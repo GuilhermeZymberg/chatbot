@@ -1,23 +1,23 @@
 {"intents":[
   { "tag": "saudacao",
     "patterns":["Ola","Opa","Oi", "tudo bem"],
-    "responses": ["Oi","Olá"]
+    "responses": ["Oi","Olá"],
+    "comentario": "saudação para o chatbot"
   },
   { "tag": "despedida",
     "patterns":["valeu","tchau","Obrigado","tks"],
-    "responses": ["Até breve","Falou"]
-  },
-  { "tag": "data_prova",
-    "patterns":["Quando sera a prova?","A prova será em que dia?"],
-    "responses": ["no dia 26"]
+    "responses": ["Até breve","Falou"],
+    "comentario": "se despede do chatbot e desliga o chatbot"
   },
   { "tag": "introdução",  
     "patterns":["O que é o tcc?", "O que é o trabalho de conclusão de curso?"],
-    "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduação. A solução proposta deve ter como base o método científico"]
+    "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduação. A solução proposta deve ter como base o método científico"],
+    "comentario": "explica o que é o tcc e os seus objetivos"
   },
   { "tag": "numero_grupo",
     "patterns":["Pode fazer grupo com mais pessoas?","Posso fazer grupo com menos pessoas?", "posso ter 5 integrantes?", "É permitido fazer grupo com mais de quatro integrantes?"],
-    "responses": ["O TCC deve ser um trabalho de 4 pessoas. Caso tenha mais de 4 integrantes, a banca e o professor serão ambos mais exigentes. Ou seja, escolha por sua conta e risco"]
+    "responses": ["O TCC deve ser um trabalho de 4 pessoas. Caso tenha mais de 4 integrantes, a banca e o professor serão ambos mais exigentes. Ou seja, escolha por sua conta e risco"],
+    "comentario": "Explica a quantidade de integrantes do tcc e as consequências de fazer o trabalho com mais ou menos integrantes"
   },
   { "tag": "entrega",
     "patterns":["O que deve ser entregue?","Qual a entrega?","O que preciso fazer?", "No que consiste a entrega do trabalho final?"],
