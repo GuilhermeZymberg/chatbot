@@ -19,11 +19,15 @@ print(resposta + "   ["+intencao[0]['intent']+"]")
 
 while (intencao[0]['intent']!="despedida"):
     if intencao[0]['intent']=='orientador':
-        print("Você já escolheu um orientador?")
-        resposta_user = input()
-        resposta, intencao = myChatBot.chatbot_response(resposta_user)
+        resposta_user = input("Você já escolheu um orientador? entre com y para sim e n para não\n")
+        if resposta_user == "n":
+            intencao[0]['intent'] ='orientador-escolha'
+            resposta, intencao = myChatBot.chatbot_response(resposta_user)
+        elif resposta_user == "y":
+            pergunta = input("OK, posso lhe ajudar com algo a mais?\n")
+            resposta, intencao = myChatBot.chatbot_response(pergunta)
     else:
-        pergunta = input("posso lhe ajudar com algo a mais?")
+        pergunta = input("Posso lhe ajudar com algo mais?\n")
         resposta, intencao = myChatBot.chatbot_response(pergunta)
     print(resposta + "   [" + intencao[0]['intent'] + "]")
 

@@ -1,41 +1,48 @@
 {"intents":[
   { "tag": "saudacao",
     "patterns":["Ola","Opa","Oi", "tudo bem"],
-    "responses": ["Oi","Olá"],
-    "comentario": "saudação para o chatbot"
+    "responses": ["Oi","Ola"],
+    "comentario": "saudacao para o chatbot"
   },
   { "tag": "despedida",
     "patterns":["valeu","tchau","Obrigado","tks"],
-    "responses": ["Até breve","Falou"],
+    "responses": ["Ate breve","Falou"],
     "comentario": "se despede do chatbot e desliga o chatbot"
   },
-  { "tag": "introdução",  
-    "patterns":["O que é o tcc?", "O que é o trabalho de conclusão de curso?"],
-    "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solução para uma questão que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduação. A solução proposta deve ter como base o método científico"],
-    "comentario": "explica o que é o tcc e os seus objetivos"
+  { "tag": "introducao",  
+    "patterns":["O que e o tcc?", "O que e o trabalho de conclusao de curso?"],
+    "responses": ["O trabalho de final de curso tem como objetivo principal exercitar a capacidade dos estudantes em desenvolver uma solucao para uma questao que envolva recursos computacionais e que utilize os conhecimentos acumulados durante o curso de graduacao. A solucao proposta deve ter como base o metodo científico"],
+    "comentario": "Explica o que e o tcc e os seus objetivos"
   },
   { "tag": "numero_grupo",
-    "patterns":["Pode fazer grupo com mais pessoas?","Posso fazer grupo com menos pessoas?", "posso ter 5 integrantes?", "É permitido fazer grupo com mais de quatro integrantes?"],
-    "responses": ["O TCC deve ser um trabalho de 4 pessoas. Caso tenha mais de 4 integrantes, a banca e o professor serão ambos mais exigentes. Ou seja, escolha por sua conta e risco"],
+    "patterns":["Pode fazer grupo com mais pessoas?","Posso fazer grupo com menos pessoas?", "posso ter 5 integrantes?", "e permitido fazer grupo com mais de quatro integrantes?"],
+    "responses": ["O TCC deve ser um trabalho de 4 pessoas. Caso tenha mais de 4 integrantes, a banca e o professor serao ambos mais exigentes. Ou seja, escolha por sua conta e risco"],
     "comentario": "Explica a quantidade de integrantes do tcc e as consequências de fazer o trabalho com mais ou menos integrantes"
   },
   { "tag": "entrega",
     "patterns":["O que deve ser entregue?","Qual a entrega?","O que preciso fazer?", "No que consiste a entrega do trabalho final?"],
-    "responses": ["É esperado uma monografia e um artefato ou programa. A monografia deve: \n•Introduzir e apresentar os objetivos do trabalho\n•Conceituar o problema\n•revisar a literatura\n•desenvolver a arquitetura das técnicas utilizadas\n•discutir os resultados e conclusões finais. "]
+    "responses": ["e esperado uma monografia e um artefato ou programa. A monografia deve: \n-Introduzir e apresentar os objetivos do trabalho\n-Conceituar o problema\n-revisar a literatura\n-desenvolver a arquitetura das tecnicas utilizadas\n-discutir os resultados e conclusoes finais. "],
+    "comentario": "Explica o que e a entrega final do tcc"
   },
   { "tag": "orientador",
-    "patterns":["O que o orientador deve fazer?", "Qual a responsabilidade do orientador?", "O que o orientador faz?", "Como o professor me ajudará?","Sim","y","Já" ],
-    "responses": ["Cabe ao professor orientador:\n•Conduzir o trabalho e é recomendado pelo menos 1h semanal de reuniões com o grupo\n•Assegurar que os alunos estão cumprindo as atividades durante as aulas\n•Informar ao professor da disciplina possíveis desvios ou situações que merecem atenção ou que possam prejudicar o trabalho ou a convivência do grupo."]  },
-  { "tag": "orientador-escolha",
-    "patterns":["não","n","Ainda não.", "Não escolhi o orientador."],
-    "responses": ["O professor orientador deve ser contatado com a maior antedecedência possível e pode ou não aceitar o projeto. Como regra geral, é ideal que se procure um professor que tem interesse na área do seu tema, mas não é preciso que seja do mesmo departamento."]  },
-  { "tag": "professor",
-  "patterns":["O que o professor deve fazer?", "Qual a responsabilidade do professor?", "O que o professor faz?", "Como o professor me ajudará?" ],
-    "responses": ["Os professores da disciplina de tcc devem:\n•Apresentar semanalmente tópicos sobre metodologia científica e organização do trabalho\n•Acompanhar a evolução de cada grupo e auxiliar os alunos na condução das atividades\n•Validar as entregas no MOODLE\n•Informar ao professor orientador possíveis desvios ou situações que merecem atenção ou que possam prejudicar o trabalho ou a convivência do grupo."]
+    "patterns":["O que o orientador deve fazer?", "Qual a responsabilidade do orientador?", "O que o orientador faz?", "Como o professor me ajudara?"],
+    "responses": ["Cabe ao professor orientador:\n-Conduzir o trabalho e e recomendado pelo menos 1h semanal de reunioes com o grupo\n-Assegurar que os alunos estao cumprindo as atividades durante as aulas\n-Informar ao professor da disciplina possíveis desvios ou situacoes que merecem atencao ou que possam prejudicar o trabalho ou a convivência do grupo."],
+    "comentario": "Explica como o orientador ajudara no processo de fazer o tcc e pergunta sobre a escolha"
   },
-  { "tag": "avaliação",
-  "patterns":["Como será a avaliação?","Como a banca de tcc vai avaliar o meu trabalho?","Como meu tcc será avaliado?" ,"Quais são os critérios de avaliação?"],
-    "responses": ["Os alunos tem dois semestres para desenvolver todas as atividades relacionadas ao trabalho, e ao final de cada semestre o trabalho será avaliado por uma banca de professores. \nA banca vai avaliar a monografia e a solução com base em um sistema de avaliação determinado e conhecido tanto pelos professores quanto pelos alunos.\nA avaliação é uma composição da avaliação da banca, do professor orientador e dos professores da disciplina de tcc.\nO orientador pode não enviar um trabalho pra banca baseado em seus critérios e justificativas de acordo com o professor de disciplina.\nO aluno será avaliado por sua contribuição efetiva no trabalho e tanto o orientador quanto o professor da disciplina podem aumentar ou reduzir as notas individuais dos alunos do grupo. O grupo também pode avaliar a participação individual de cada um e o professor da disciplina deve revisar essa avaliação, não necessariamente a considerando."]
+  { "tag": "orientador-escolha",
+    "patterns":["nao","n","Ainda nao.", "Nao escolhi o orientador."],
+    "responses": ["O professor orientador deve ser contatado com a maior antedecedência possível e pode ou nao aceitar o projeto. Como regra geral, e ideal que se procure um professor que tem interesse na area do seu tema, mas nao e preciso que seja do mesmo departamento."],
+    "comentario": "Explica como escolher o orientador"
+  },
+  { "tag": "professor",
+  "patterns":["O que o professor deve fazer?", "Qual a responsabilidade do professor?", "O que o professor faz?", "Como o professor me ajudara?" ],
+  "responses": ["Os professores da disciplina de tcc devem:\n-Apresentar semanalmente topicos sobre metodologia científica e organizacao do trabalho\n-Acompanhar a evolucao de cada grupo e auxiliar os alunos na conducao das atividades\n-Validar as entregas no MOODLE\n-Informar ao professor orientador possíveis desvios ou situacoes que merecem atencao ou que possam prejudicar o trabalho ou a convivência do grupo."],
+  "comentario": "Explica como o professor ajudara no processo de fazer o tcc"
+  },
+  { "tag": "avaliacao",
+  "patterns":["Como sera a avaliacao?","Como a banca de tcc vai avaliar o meu trabalho?","Como meu tcc sera avaliado?" ,"Quais sao os criterios de avaliacao?"],
+  "responses": ["Os alunos tem dois semestres para desenvolver todas as atividades relacionadas ao trabalho, e ao final de cada semestre o trabalho sera avaliado por uma banca de professores. \nA banca vai avaliar a monografia e a solucao com base em um sistema de avaliacao determinado e conhecido tanto pelos professores quanto pelos alunos.\nA avaliacao e uma composicao da avaliacao da banca, do professor orientador e dos professores da disciplina de tcc.\nO orientador pode nao enviar um trabalho pra banca baseado em seus criterios e justificativas de acordo com o professor de disciplina.\nO aluno sera avaliado por sua contribuicao efetiva no trabalho e tanto o orientador quanto o professor da disciplina podem aumentar ou reduzir as notas individuais dos alunos do grupo. O grupo tambem pode avaliar a participacao individual de cada um e o professor da disciplina deve revisar essa avaliacao, nao necessariamente a considerando."],
+  "comentario": "Explica como a banca de tcc vai avaliar o trabalho e como funcionam os feedbacks e entregas"
   }
 ]
 }
