@@ -25,7 +25,7 @@
     "comentario": "Explica o que e a entrega final do tcc"
   },
   { "tag": "orientador",
-    "patterns":["O que o orientador deve fazer?", "Qual a responsabilidade do orientador?", "O que o orientador faz?", "Como o professor me ajudara?"],
+    "patterns":["O que o orientador deve fazer?", "Qual a responsabilidade do orientador?", "O que o orientador faz?", "Como o orientador me ajudara?"],
     "responses": ["Cabe ao professor orientador:\n-Conduzir o trabalho e e recomendado pelo menos 1h semanal de reunioes com o grupo\n-Assegurar que os alunos estao cumprindo as atividades durante as aulas\n-Informar ao professor da disciplina possíveis desvios ou situacoes que merecem atencao ou que possam prejudicar o trabalho ou a convivência do grupo."],
     "comentario": "Explica como o orientador ajudara no processo de fazer o tcc e pergunta sobre a escolha"
   },
